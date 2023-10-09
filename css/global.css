@@ -39,6 +39,7 @@ body {
   transition: all ease-in-out 0.2s;
 }
 .title_web_navbar {
+  font-style: italic;
   font-size: 1.7rem;
   font-weight: bold;
 }
@@ -49,27 +50,14 @@ body {
   align-items: center;
 }
 
-ul li {
-  display: inline-block;
-  padding-right: 20px;
-}
-.link_a_nav {
-  font-size: 1.12rem;
-  text-decoration: none;
-}
-.link_a_nav:hover {
-  font-size: 1.6rem;
-  text-decoration: underline 1.8px solid;
-  transition: all ease-in-out 0.2s;
-}
-
 .container {
   margin: 1rem;
 }
 .container_principal {
-  height: fit-content;
+  display: flex;
   justify-content: center;
   align-items: center;
+  height: 640px;
 }
 
 .title_web {
@@ -139,9 +127,9 @@ ul li {
   align-items: center;
   margin: 0 auto;
   border-radius: 3px;
-  margin-top: 42px;
+  padding-top: 42px;
   max-width: 1800px;
-  height: fit-content;
+  height: 840px;
 }
 
 .container_conocimientos {
@@ -186,13 +174,8 @@ ul li {
 }
 
 .container_tercero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: #fefefe;
-  margin-top: 132px;
-  height: 1010px;
+  height: 100%;
 }
 
 .title_proyecto {
@@ -265,13 +248,20 @@ ul li {
     font-size: 1.1rem;
   }
 
+  .container_principal {
+    height: 100%;
+  }
+  .section_bienivenido {
+    height: 100%;
+  }
+
   .title_web {
     font-size: 4.2rem;
-    text-align: start;
+    text-align: center;
     padding-left: 6px;
   }
   .texto_bienvenida_h3 {
-    text-align: start;
+    text-align: center;
     max-width: 420px;
     padding-left: 6px;
   }
@@ -303,6 +293,7 @@ ul li {
     display: grid;
     grid-template-columns: 1fr;
     max-width: 420px;
+    height: 100%;
   }
   .container_conocimientos {
     max-width: 420px;
@@ -324,7 +315,7 @@ ul li {
 
   .container_tercero {
     max-width: 420px;
-
+    height: 1240px;
     justify-content: center;
     align-items: center;
   }
@@ -355,6 +346,237 @@ ul li {
   .card {
     margin-top: 120px;
     max-width: 420px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .container {
+    margin: 0 auto;
+    max-width: 390px;
+    font-size: 1.1rem;
+  }
+  .container_principal {
+    height: 100%;
+  }
+  .section_bienivenido {
+    height: 100%;
+  }
+
+  .title_web {
+    font-size: 4.2rem;
+    text-align: center;
+    padding-left: 6px;
+  }
+  .texto_bienvenida_h3 {
+    text-align: center;
+    max-width: 390px;
+    padding-left: 6px;
+  }
+
+  .container_title_proyecto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+  .title_conocimiento {
+    font-size: 2.7rem;
+  }
+
+  .container_buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-social {
+    display: flex;
+    gap: 10px;
+    width: 180px;
+    height: 60px;
+  }
+
+  .container_segundo {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 390px;
+    height: 100%;
+  }
+  .container_conocimientos {
+    max-width: 390px;
+    height: 100%;
+    gap: 42px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .img_box {
+    width: 200px;
+    height: 240px;
+  }
+  .img_box:hover {
+    transition: all ease-in 0.2s;
+    cursor: pointer;
+    width: 220px;
+    height: 250px;
+  }
+
+  .container_tercero {
+    max-width: 390px;
+    height: 1240px;
+    justify-content: center;
+    align-items: center;
+  }
+  .box_card {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    flex-direction: column-reverse;
+  }
+  .section_card {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 390px;
+    height: 400px;
+  }
+  .container_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .paragh_web_card {
+    text-align: center;
+    margin: 1rem;
+  }
+  .card {
+    margin-top: 120px;
+    max-width: 390px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para dispositivos con pantallas entre 768px y 1024px */
+  /* Estilos generales para todos los dispositivos */
+  .container {
+    margin: 0 auto;
+    max-width: 390px;
+    font-size: 1.1rem;
+  }
+
+  .container_principal {
+    height: 100%;
+  }
+
+  .section_bienivenido {
+    height: 100%;
+  }
+
+  .title_web {
+    font-size: 4.2rem;
+    text-align: center;
+    padding-left: 6px;
+  }
+
+  .texto_bienvenida_h3 {
+    text-align: center;
+    max-width: 390px;
+    padding-left: 6px;
+  }
+
+  .container_title_proyecto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .title_conocimiento {
+    font-size: 2.7rem;
+  }
+
+  .container_buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-social {
+    display: flex;
+    gap: 10px;
+    width: 180px;
+    height: 60px;
+  }
+
+  .container_segundo {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 390px;
+    height: 100%;
+  }
+
+  .container_conocimientos {
+    max-width: 390px;
+    height: 100%;
+    gap: 42px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .img_box {
+    width: 200px;
+    height: 240px;
+  }
+
+  .img_box:hover {
+    transition: all ease-in 0.2s;
+    cursor: pointer;
+    width: 220px;
+    height: 250px;
+  }
+
+  .container_tercero {
+    max-width: 390px;
+    height: 1240px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box_card {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    flex-direction: column-reverse;
+  }
+
+  .section_card {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 390px;
+    height: 400px;
+  }
+
+  .container_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragh_web_card {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .card {
+    margin-top: 120px;
+    max-width: 390px;
     height: 400px;
   }
 }
