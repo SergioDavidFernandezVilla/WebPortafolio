@@ -1,0 +1,360 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#animated-element {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.hero_header {
+  background-color: rgba(249, 249, 249, 0.799);
+  height: 85px;
+  display: flex;
+  justify-content: start;
+  gap: 42px;
+  align-items: center;
+}
+.navbar_title {
+  padding-left: 8px;
+}
+.link_a_nav_title {
+  text-decoration: none;
+  color: black;
+}
+.link_a_nav_title:hover {
+  font-size: 1.9rem;
+  text-decoration: underline 1.8px solid;
+  transition: all ease-in-out 0.2s;
+}
+.title_web_navbar {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.link_a_nav {
+  font-size: 1.12rem;
+  text-decoration: none;
+}
+.link_a_nav:hover {
+  font-size: 1.6rem;
+  text-decoration: underline 1.8px solid;
+  transition: all ease-in-out 0.2s;
+}
+
+.container {
+  margin: 1rem;
+}
+.container_principal {
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_web {
+  font-size: 7.9rem;
+}
+
+.section_bienivenido {
+  margin: 0 auto;
+  height: 572px;
+  max-width: 1600px;
+}
+.span_title_web {
+  font-weight: bold;
+  color: rgb(20, 107, 229);
+}
+.article_bienvenido {
+  height: fit-content;
+}
+.texto_bienvenida_h3 {
+  margin-top: 12px;
+  max-width: 800px;
+  font-size: 1.7rem;
+}
+.container_buttons {
+  display: flex;
+  gap: 14px;
+  margin-top: 24px;
+}
+.btn-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 240px;
+  height: 62px;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(253, 253, 253);
+  border-radius: 12px;
+  font-weight: bold;
+  color: rgb(20, 107, 229);
+  border: 2px solid rgb(20, 107, 229);
+}
+.btn-social:hover {
+  cursor: pointer;
+  width: 265px;
+  font-size: 1.6rem;
+  font-weight: 1000;
+  background-color: #ebebeb;
+  transition: all ease 0.2s;
+  color: rgb(20, 107, 229);
+}
+.icono_social {
+  height: 46px;
+  width: 46px;
+}
+.icono_social:hover {
+  height: 52px;
+  width: 52px;
+}
+
+.container_segundo {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 254, 254, 0.727);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 3px;
+  margin-top: 42px;
+  max-width: 1800px;
+  height: fit-content;
+}
+
+.container_conocimientos {
+  display: grid;
+  gap: 12px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 1800px;
+  height: 560px;
+}
+
+.img_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 220px;
+}
+.img_box:hover {
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+  width: 360px;
+  height: 340px;
+}
+.img_svg_conocimiento {
+  height: 100%;
+}
+
+.title_conocimiento {
+  text-align: center;
+  font-size: 4.2rem;
+}
+
+/*Pagina De About*/
+
+.container_footer {
+  background-color: #333;
+  color: #fff;
+  height: 86px;
+}
+
+.container_tercero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefefe;
+  margin-top: 132px;
+  height: 1010px;
+}
+
+.title_proyecto {
+  color: rgb(20, 107, 229);
+  font-size: 4.6rem;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.box_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 32px;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 1200px;
+  height: 400px;
+}
+
+.section_card {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  height: 400px;
+}
+
+.article_card {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_Web_card {
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 5px;
+  font-size: 2.8rem;
+  text-align: center;
+}
+.paragh_web_card {
+  text-align: start;
+  font-size: 1.2rem;
+  margin-top: 23px;
+  padding-left: 6px;
+}
+
+.container_btn_card {
+  margin-top: 12px;
+}
+
+.btn_card {
+  font-size: 1.5rem;
+}
+
+.card_img {
+  border-radius: 3px;
+  width: 100%;
+  height: fit-content;
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    margin: 0 auto;
+    max-width: 420px;
+    font-size: 1.1rem;
+  }
+
+  .title_web {
+    font-size: 4.2rem;
+    text-align: start;
+    padding-left: 6px;
+  }
+  .texto_bienvenida_h3 {
+    text-align: start;
+    max-width: 420px;
+    padding-left: 6px;
+  }
+
+  .container_title_proyecto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+  .title_conocimiento {
+    font-size: 2.7rem;
+  }
+
+  .container_buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-social {
+    display: flex;
+    gap: 10px;
+    width: 180px;
+    height: 60px;
+  }
+
+  .container_segundo {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 420px;
+  }
+  .container_conocimientos {
+    max-width: 420px;
+    height: 100%;
+    gap: 42px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .img_box {
+    width: 200px;
+    height: 240px;
+  }
+  .img_box:hover {
+    transition: all ease-in 0.2s;
+    cursor: pointer;
+    width: 220px;
+    height: 250px;
+  }
+
+  .container_tercero {
+    max-width: 420px;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .box_card {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    flex-direction: column-reverse;
+  }
+  .section_card {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 420px;
+    height: 400px;
+  }
+  .container_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .paragh_web_card {
+    text-align: center;
+    margin: 1rem;
+  }
+  .card {
+    margin-top: 120px;
+    max-width: 420px;
+    height: 400px;
+  }
+}
