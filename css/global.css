@@ -9,7 +9,9 @@ body {
   font-size: 16px;
   height: 100%;
   margin: 0;
+  color: #fff;
   padding: 0;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 #animated-element {
@@ -19,19 +21,19 @@ body {
 }
 
 .hero_header {
-  background-color: rgba(249, 249, 249, 0.799);
   height: 85px;
   display: flex;
   justify-content: start;
   gap: 42px;
+  color: #fff;
   align-items: center;
 }
 .navbar_title {
   padding-left: 8px;
 }
 .link_a_nav_title {
+  color: #fff;
   text-decoration: none;
-  color: black;
 }
 .link_a_nav_title:hover {
   font-size: 1.9rem;
@@ -71,7 +73,7 @@ body {
 }
 .span_title_web {
   font-weight: bold;
-  color: rgb(20, 107, 229);
+  color: rgb(232 250 35);
 }
 .article_bienvenido {
   height: fit-content;
@@ -98,17 +100,16 @@ body {
   background-color: rgb(253, 253, 253);
   border-radius: 12px;
   font-weight: bold;
-  color: rgb(20, 107, 229);
-  border: 2px solid rgb(20, 107, 229);
+  color: rgb(38, 38, 38);
+  border: 2px solid rgb(253, 253, 253);
 }
 .btn-social:hover {
   cursor: pointer;
   width: 265px;
   font-size: 1.6rem;
   font-weight: 1000;
-  background-color: #ebebeb;
+  background-color: #d7d7d7;
   transition: all ease 0.2s;
-  color: rgb(20, 107, 229);
 }
 .icono_social {
   height: 46px;
@@ -122,7 +123,6 @@ body {
 .container_segundo {
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 254, 254, 0.727);
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -161,6 +161,8 @@ body {
 }
 
 .title_conocimiento {
+  font-weight: 800;
+  color: rgb(232 250 35);
   text-align: center;
   font-size: 4.2rem;
 }
@@ -174,12 +176,12 @@ body {
 }
 
 .container_tercero {
-  background-color: #fefefe;
   height: 100%;
 }
 
 .title_proyecto {
-  color: rgb(20, 107, 229);
+  font-weight: 800;
+  color: rgb(232 250 35);
   font-size: 4.6rem;
   margin-top: 5px;
   text-align: center;
@@ -214,8 +216,8 @@ body {
 }
 
 .title_Web_card {
-  font-weight: bold;
-  font-style: italic;
+  color: rgb(232 250 35);
+  font-weight: 800;
   margin-top: 5px;
   font-size: 2.8rem;
   text-align: center;
