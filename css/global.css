@@ -246,11 +246,12 @@ body {
 @media screen and (max-width: 420px) {
   .container {
     margin: 0 auto;
-    max-width: 420px;
+    max-width: 414px;
     font-size: 1.1rem;
   }
 
   .container_principal {
+    max-width: 414px;
     height: 100%;
   }
   .section_bienivenido {
@@ -339,12 +340,17 @@ body {
     height: 500px;
   }
 
+  .title_proyecto {
+    font-size: 3.8rem;
+  }
+
   .section_card {
     display: flex;
     flex-direction: column-reverse;
-    max-width: 420px;
+    max-width: 414px;
   }
   .article_card {
+    max-width: 380px;
     height: 388px;
   }
 
